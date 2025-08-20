@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 20.144 s <<< FAILURE! - in TestSuite
+createCustomer(TestClasses.CreateCustomerTest)  Time elapsed: 1.519 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at TestClasses.CreateCustomerTest.createCustomer(CreateCustomerTest.java:34)
+
+createCustomer(TestClasses.CreateCustomerTest)  Time elapsed: 0.115 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at TestClasses.CreateCustomerTest.createCustomer(CreateCustomerTest.java:34)
+
